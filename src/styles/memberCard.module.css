@@ -1,0 +1,68 @@
+.memberCardContainer {
+  grid-column: span 1;
+  grid-row: span 1;
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  box-shadow: 5px 8px 15px rgba(0, 0, 0, .10)
+}
+
+.cardBody {
+  margin: 15px 10px;
+}
+
+.cardBody > div {
+  margin-top: 25px;
+}
+
+h2 {
+  margin: 5px auto 0px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000000;
+}
+
+h3 {
+  margin: 0px auto 10px;
+}
+
+h4 {
+  margin: 10px auto;
+}
+
+.transactionList {
+  margin: 10px auto;
+  height: 250px;
+  overflow-y: scroll;
+  border-radius: 5px;
+  background-color: #F2F2F2;
+}
+
+.monthlySummaryContainer {
+  margin: auto 10px 20px;
+}
+
+.transactionList > p {
+  margin: 10px;
+  border-bottom: none;
+}
+
+p {
+  margin: 8px 0px;
+  border-bottom: 1px dotted #000000;
+}
+
+p > span {
+  float: right;
+}
+
+/* Laptops and larger */
+@media (min-width: 992px) {
+  .memberCardContainer {
+    display: inline-block;
+    width: 30%;
+    min-width: 300px;
+    max-width: 400px;
+  }
+}

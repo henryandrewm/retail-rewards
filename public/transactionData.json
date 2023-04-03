@@ -1,0 +1,77 @@
+[
+  {
+    "firstName": "Mock",
+    "lastName": "User 1",
+    "transactions": [
+      {
+        "date": "2023-2-1",
+        "total": 120.50
+      },
+      {
+        "date": "2023-4-2",
+        "total": 300.63
+      },
+      {
+        "date": "2023-2-5",
+        "total": 80.23
+      },
+      {
+        "date": "2023-3-10",
+        "total": 500.67
+      },
+      {
+        "date": "2023-4-21",
+        "total": 156.29
+      }
+    ]
+  },
+  {
+    "firstName": "Mock",
+    "lastName": "User 2",
+    "transactions": [
+      {
+        "date": "2023-2-1",
+        "total": 20.50
+      },
+      {
+        "date": "2023-4-2",
+        "total": 63.63
+      },
+      {
+        "date": "2023-2-5",
+        "total": 80.23
+      },
+      {
+        "date": "2023-3-10",
+        "total": 560.67
+      },
+      {
+        "date": "2023-4-21",
+        "total": 156.29
+      }
+    ]
+  },
+  {
+    "firstName": "Mock",
+    "lastName": "User 3",
+    "transactions": []
+  },
+  {
+    "firstName": "Mock",
+    "lastName": "User 4",
+    "transactions": [
+      {
+        "date": "2023-2-1",
+        "total": 120.30
+      },
+      {
+        "date": "2023-4-2",
+        "total": 120.59
+      },
+      {
+        "date": "2023-3-10",
+        "total": 120.01
+      }
+    ]
+  }
+]
